@@ -4,7 +4,9 @@ div {
   padding: 10px;
 }
 .container {
-  background-color:#2E4272;
+  border: 1px solid #1c346c;
+  border-radius: 25px;
+  background-color:#fdfdfd;
   display:flex;
 }
 
@@ -13,11 +15,21 @@ div {
 }
 
 .fixed {
-  background-color:#4F628E;
-  width: 417px;
+  background-color:#526591;
+  height: 320px;
 }
 
 .flex-item {
-  background-color:#7887AB;
+  background-color:#526591;
   flex-grow: 2;
+}
+
+.buttonScreen {
+  border: 1px solid #000000;
+  text-align: center;
+  width: 120px;
+  /* height: 40px; */
+  margin: auto;
+  padding: 5px;
+
 }
