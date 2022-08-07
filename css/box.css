@@ -1,8 +1,10 @@
 div {
-  color: #fff;
+  color: #000000;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   padding: 10px;
+
 }
+
 .container {
   border: 1px solid #1c346c;
   border-radius: 25px;
@@ -10,22 +12,34 @@ div {
   display:flex;
 }
 
+.screenFront{
+  background-image: url(../assets/background.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.screenFrontImg{
+  height: 200px;
+  width: 400px;
+}
+
 .topContainer{
   width: 417px;
 }
 
 .fixed {
-  background-color:#526591;
+  background-color:#6b83ba;
   height: 320px;
 }
 
 .flex-item {
-  background-color:#526591;
+  background-color:#6b83ba;
   flex-grow: 2;
 }
 
-.buttonScreen {
-  border: 1px solid #000000;
+.buttonContainer {
+  border: 1px solid #0b0000;
   text-align: center;
   width: 120px;
   /* height: 40px; */
