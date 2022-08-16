@@ -17,6 +17,7 @@ div {
   height: 100%;
   width: 100%;
   background-size: cover;
+  margin: 20px;
 }
 
 .screenFrontImg{
@@ -29,13 +30,15 @@ div {
 }
 
 .fixed {
-  background-color:#6b83ba;
+  background-color:#6b83ba80;
   height: 320px;
+  text-align: left;
 }
 
 .flex-item {
-  background-color:#6b83ba;
-  flex-grow: 2;
+  background-color:#6b83ba80;
+  flex-grow: 1;
+  text-align: left;
 }
 
 .buttonContainer {
